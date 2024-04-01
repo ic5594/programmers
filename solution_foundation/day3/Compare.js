@@ -9,7 +9,6 @@
 function solution(a, b) {
     var string = a.toString() + b.toString();
     var multi = 2 * a * b;
-    console.log('a.toString()', a.toString())
     if (string >= multi) {
         return parseInt(string);
     }
